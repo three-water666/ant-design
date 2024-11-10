@@ -19,6 +19,7 @@ demo:
 <!-- prettier-ignore -->
 <code src="./demo/basic.tsx">基本</code>
 <code src="./demo/range-picker.tsx">范围选择器</code>
+<code src="./demo/range-picker-debug.tsx" debug>范围选择器三角偏移debug</code>
 <code src="./demo/multiple.tsx" version="5.14.0">多选</code>
 <code src="./demo/multiple-debug.tsx" debug>多选 Debug</code>
 <code src="./demo/needConfirm.tsx" version="5.14.0">选择确认</code>

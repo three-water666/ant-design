@@ -106,7 +106,6 @@ const generateRangePicker = <DateType extends AnyObject = AnyObject>(
 
     // ============================ zIndex ============================
     const [zIndex] = useZIndex('DatePicker', props.popupStyle?.zIndex as number);
-
     return wrapCSSVar(
       <ContextIsolator space>
         <RCRangePicker<DateType>
