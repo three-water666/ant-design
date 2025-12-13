@@ -268,7 +268,7 @@ const genColorPickerStyle: GenerateStyle<ColorPickerToken> = (token) => {
           },
         },
 
-        '&-trigger': {
+        '&-trigger`]: {
           minWidth: controlHeight,
           minHeight: controlHeight,
           borderRadius,
@@ -341,7 +341,7 @@ export default genStyleHooks('ColorPicker', (token) => {
     colorPickerWidth: 234,
     colorPickerHandlerSize: 16,
     colorPickerHandlerSizeSM: 12,
-    colorPickerAlphaInputWidth: 44,
+    colorPickerAlphaInputWidth: 50,
     colorPickerInputNumberHandleWidth: 16,
     colorPickerPresetColorSize: 24,
     colorPickerInsetShadow: `inset 0 0 1px 0 ${colorTextQuaternary}`,
